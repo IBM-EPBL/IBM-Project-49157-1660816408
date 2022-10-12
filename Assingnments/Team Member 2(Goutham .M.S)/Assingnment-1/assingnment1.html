@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <div id="bold">
+    <b>Goutham</b>
+    <span id="twitter"><i class="fa fa-twitter" aria-hidden="true"></i></span>
+    <span id="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></span>
+    <span id="insta"><i class="fa fa-instagram" aria-hidden="true"></i></span>
+    <span id="git"><i class="fa fa-github" aria-hidden="true"></i></span>
+    </div>
+    
+    <div id="top">
+    <div class="container">
+        
+        <img src="../IMAGES/photoo.jpg" alt="" height="100px" width="100px" id="ajai">
+        <div id="head">
+            <b> Goutham </b> <br><br>
+        Software Developer <br><br>
+       
+        <button class="cv">Download CV</button>
+        <button class="hire">Hire Me</button>
+        </div>
+        
+    </div><br><br>
+    <div id="about">
+    <b>ABOUT ME</b><br>
+    <p>Hello! I'm Ajai Inith.I am passionate about UI/UX design and Web Design.I am a skilled front end developer and master of graphic Design tools such as photoshop and Sketch.</p>
+</div>
+<div id="data">
+    <pre>
+
+    Age                   20 
+    Email                 gouthamkmurugan@gmail.com
+    Phone                 9786524415 
+    Address               sathanvilai,Ammandivilai(P.O),Tamilnadu-629204
+    </pre>                  
+
+</div>
+<hr>
+<h1>SKILLS</h1>
+<div class="center">
+    <div class="skillbox">
+        <p>HTML</p>
+        <p>90%</p>
+        <div class="skill">
+            <div class="skill_level" style="width:90% ;"></div>
+        </div>
+    </div>
+    <div class="skillbox">
+        <p>CSS</p>
+        <p>90%</p>
+        <div class="skill">
+            <div class="skill_level" style="width:90% ;"></div>
+        </div>
+    </div>
+    <div class="skillbox">
+        <p>JavaScript</p>
+        <p>65%</p>
+        <div class="skill">
+            <div class="skill_level" style="width:65% ;"></div>
+        </div>
+    </div>
+    <div class="skillbox">
+        <p>PHOTOSHOP</p>
+        <p>70%</p>
+        <div class="skill">
+            <div class="skill_level" style="width:70% ;"></div>
+        </div>
+    </div>
+</div>
+    </div>
+<style>
+    body{
+        margin: 30px;
+        padding: 30px;
+        font-family: monospace;
+    }
+    #bold{
+        font-weight: bold;
+        position: relative;
+        top: -5px;
+        padding: 5px;
+        font-size: 18px;
+        
+    }
+   i{
+    float: right;
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 5px;
+   }
+    .center{
+        
+        width: 40%;
+        position: absolute;
+        top: 83%;
+        left: 30%;
+        padding: 5px;
+        transform: translate(-50%,-50%);
+        box-sizing: border-box;
+        
+    }
+    .skillbox{
+        box-sizing: border-box;
+        width: 100%;
+        margin: 20px 0;
+    }
+    .skillbox p{
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+   
+    .skillbox p:nth-child(2){
+        float: right;
+        position: relative;
+        top: -50px;
+    }
+    .skill{
+        background: #262626;
+        padding: 4px;
+        box-sizing: border-box;
+        border: 1px solid rgb(7, 7, 7);
+        border-radius: 3px;
+    }
+    .skill_level{
+        background: #049acc;
+        width: 100%;
+        height: 10px;
+    }
+    #top{
+        box-shadow: 0 10px 10px;
+        height: 680px;
+    }
+   .container{
+            background-color: aqua;
+            padding: 20px;
+            
+        }
+        #a{
+            background-color: rgba(0, 0, 0, 0.226);
+        }
+        #b{
+            background-color: aqua;
+        }
+        #head{
+            position: absolute;
+            top: 100px;
+            left: 50%;
+            background-color: rgba(0, 0, 255, 0);
+            width: fit-content;
+            font-family: monospace;
+            font-size: 20px;
+        }
+        #ajai{
+            box-shadow: 5px 2px 5px 2px;
+            position: relative;
+            top: 30px;
+        }
+        #about{
+            width: 500px;
+            font-size: 15px;
+            
+            margin-left: 2%;
+        }
+        #data{
+            position: absolute;
+            top: 33%;
+            left: 48%;
+            font-size: 15px;
+        }
+        .cv{
+            border-radius: 10px;
+            background:rgb(78, 212, 212);
+            font-weight: bold;
+        } .hire{
+            border-radius: 10px;
+            background: rgb(20, 68, 211);
+            font-weight: bold;
+        }
+        h1{
+            position: absolute;
+            left: 10%;
+        }
+        button{
+            border: none;
+            padding: 6px;
+        }
+    </style>   
+</body>
+</html>
