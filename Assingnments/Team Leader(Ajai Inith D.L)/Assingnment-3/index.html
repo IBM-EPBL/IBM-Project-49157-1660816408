@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<title>Hospital page</title>
+
+<head>
+    <link rel="stylesheet" href="new.css">
+    <script>
+        window.watsonAssistantChatOptions = {
+            integrationID: "1ab3c57e-3791-4409-bd3e-eb94291e6d64", // The ID of this integration.
+            region: "au-syd", // The region your integration is hosted in.
+            serviceInstanceID: "8b7a8c0d-8ef0-4940-a46e-182b96c1b179", // The ID of your service instance.
+            onLoad: function(instance) {
+                instance.render();
+            }
+        };
+        setTimeout(function() {
+            const t = document.createElement('script');
+            t.src = "https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+            document.head.appendChild(t);
+        });
+    </script>
+</head>
+
+<body>
+    <h1>JANANY HOSPITALS</h1>
+    <div class="gallery">
+        <a target="blank" href="image 1.jpg">
+            <img src=" image 1.jpg " alt="not found ">
+        </a>
+    </div>
+
+    <div class="gallery ">
+        <a target="blank " href="image 2.jpg">
+            <img src="image 2.jpg " alt="not found">
+        </a>
+    </div>
+
+    <div class="gallery ">
+        <a target="blank " href="image 3.jpg ">
+            <img src="image 3.jpg " alt="not found">
+        </a>
+    </div>
+
+    <div class="gallery ">
+        <a target="blank " href="image 4.jpg">
+            <img src="image 4.jpg " alt="not found">
+        </a>
+    </div>
+</body>
+
+</html>
