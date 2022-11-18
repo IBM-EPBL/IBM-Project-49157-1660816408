@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#background{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+
+}
+
+.card {
+    
+    border: 3px solid rgb(44, 43, 43);
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 40px;
+    padding-bottom: 30px;
+
+}
+
+.hov:hover{
+    background-color: rgb(16, 87, 7);
+}
+.card h6{
+    color: rgb(251, 107, 4);
+    font-size: large;
+    font-weight: 700;
+}
+.card b{
+    text-transform: uppercase;
+    color: rgb(251, 107, 4);
+}
+#log {
+    margin-right: 15px;
+    padding: 4px 9px;
+    color: rgb(251, 107, 4);
+    font-weight: bold;
+    border: 2px solid rgb(251, 107, 4);
+    border-radius: 30px;
+}
+
+#log:hover {
+    color: rgb(19, 176, 255);
+    background: none;
+    border: 2px solid rgb(19, 176, 255);
+}
+.nav-link {
+    font-weight: bold;
+    font-size: medium;
+    color: rgb(229, 85, 2);
+}
+    
+.nav-link:hover {
+    color: rgb(19, 176, 255);
+}
+
+
+.navbar {
+    top: 0;
+    background-color: rgb(0, 0, 0);
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.brand{
+    margin-left: 15px;
+}
+
+.apply{
+    margin-left: 290px;
+    text-decoration: none;
+    border: 3px;
+    background-color: rgb(252, 171, 9);
+    color: rgb(66, 64, 66);
+    padding: 4px 10px 6px 10px;
+    border-radius: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.apply:hover{
+    color: rgb(30, 29, 30);
+    background-color: rgb(238, 185, 42);
+}
+
+#myBtn{
+    display: none;
+    position: fixed;
+    bottom: 90px;
+    right: 38px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color:rgb(253, 137, 4);;
+    color: black;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: larger;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 100%;
+
+}
