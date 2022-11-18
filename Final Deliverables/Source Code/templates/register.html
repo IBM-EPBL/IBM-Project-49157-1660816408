@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=], initial-scale=1.0">
+    <title> Elite Jobs</title>
+    <link rel="icon" type="image/x-icon" href="/static/images/1.png">
+    <link rel="stylesheet" href="../static/css/register.css">
+    <script src="https://kit.fontawesome.com/ddb78983e6.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Gemunu+Libre&effect=neon">
+    <script>
+        window.watsonAssistantChatOptions = {
+          integrationID: "326eaf57-00c1-4160-92c5-73d4cc2b36a2", // The ID of this integration.
+          region: "au-syd", // The region your integration is hosted in.
+          serviceInstanceID: "8b7a8c0d-8ef0-4940-a46e-182b96c1b179", // The ID of your service instance.
+          onLoad: function(instance) { instance.render(); }
+        };
+        setTimeout(function(){
+          const t=document.createElement('script');
+          t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+          document.head.appendChild(t);
+        });
+      </script>
+</head>
+<body>
+
+    <form method="post">
+        <img src="/static/images/1.png" alt="" width="70" height="80">
+        <a href="/" class="back"><i class="fa-solid fa-circle-arrow-left"></i></a>
+        <h1>Register</h1>
+        <label><i class="fa-solid fa-user"></i>&nbsp&nbsp&nbsp&nbsp Name</label>
+        <input type="text" placeholder="Enter your name" name="name" required>
+        <label ><i class="fa-solid fa-user-plus"></i>&nbsp&nbsp&nbsp&nbsp User Name</label>
+        <input type="text" placeholder="Enter your user name" name="username" required>
+        <label ><i class="fa-solid fa-envelope"></i>&nbsp&nbsp&nbsp&nbsp Email</label>
+        <input type="email" placeholder="Enter your Email address" name="email" required>
+        <label ><i class="fa-sharp fa-solid fa-lock"></i>&nbsp&nbsp&nbsp&nbsp Password</label>
+        <input type="password" placeholder="Enter your password" name="password" required>
+        <button type="submit" class="btn btn-primary">Sign Up</button>
+        <a href="login" class="a2">Already have an account</a>
+    </form>
+</body>
+</html>
