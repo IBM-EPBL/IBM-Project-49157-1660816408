@@ -1,1 +1,1 @@
-
+JOB/SKILL RECOMMENDER APPLICATION DEMO VIDEO LINK:https://drive.google.com/file/d/1gHANoJ9iO4xkUwk4VYV6ImhGpF4EOzUS/view
