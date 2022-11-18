@@ -1,0 +1,288 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: rgb(172, 255, 255);
+}
+
+#log {
+    padding: 4px 9px;
+    color: rgb(251, 107, 4);
+    font-weight: bold;
+    border: 2px solid rgb(251, 107, 4);
+    border-radius: 30px;
+}
+
+#log:hover {
+    color: rgb(19, 176, 255);
+    background: none;
+    border: 2px solid rgb(19, 176, 255);
+}
+
+.maincount {
+    margin-top: 30px;
+    background-color: rgb(52, 51, 51);
+    display: flex;
+    padding: 100px;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.maincount div b{
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+}
+.count {
+    color: rgb(229, 127, 2);
+    text-align: center;
+}
+
+.nav-link {
+    font-weight: bold;
+    font-size: medium;
+    color: rgb(229, 127, 2);
+    font-family: 'Signika Negative', sans-serif;
+
+}
+    
+.nav-link:hover {
+    color: rgb(19, 176, 255);
+}
+
+#bg {
+    position: absolute;
+    width: 100%;
+    height: 86%;
+}
+
+#joblist {
+    margin-top: 70px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-weight: bolder;
+    color: rgb(255, 94, 0);
+    font-size: xx-large;
+    font-family: 'Acme', sans-serif;
+   
+}
+
+
+.navbar {
+    position: sticky;
+    top: 0;
+    background-color: rgb(0, 0, 0);
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.job-post-container {
+    border: 1px solid rgba(34, 39, 45, 0.851);
+    border-top: none;
+    display: flex;
+    padding: 50px;
+}
+
+.bottom{
+    margin-bottom: 40px;
+}
+.job-post-container:hover {
+    background-color: rgba(0, 102, 255, 0.13);
+
+
+}
+
+#first:hover {
+    background-color: rgba(0, 102, 255, 0.13);
+}
+
+#first {
+    border: 1px solid rgba(34, 39, 45, 0.851);
+    display: flex;
+}
+
+.single-job-post {
+    border: 1px solid rgba(24, 23, 23, 0.521);
+    border: none;
+}
+
+.container {
+
+    font-size: larger;
+}
+
+.anime {
+    position: absolute;
+    top: 250px;
+    left: 30%;
+    font-weight: bolder;
+    font-size: 85px;
+    color: rgb(245, 103, 9);
+    animation-duration: 3s;
+    animation-name: slidein;
+    font-family: 'Acme', sans-serif;
+
+}
+.ani{
+    position: absolute;
+    top: 330px;
+    left: 60%;
+    font-weight: bolder;
+    font-size: 85px;
+    color : rgb(0, 255, 229);
+    animation-duration: 5s;
+    animation-name: slidein;
+    font-family: 'Acme', sans-serif;
+
+}
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+#reg {
+    position: absolute;
+    top: 460px;
+    right: 45%;
+    background-color: none;
+    border: 2px solid rgb(250, 238, 6);
+    border-radius: 30px;
+    color: rgb(252, 228, 12);
+    font-weight: bold;
+    animation-name: slide;
+    animation-duration: 2s;
+    text-decoration: none;
+    padding: 4px 10px;
+    font-size: large;
+    font-weight: 700;
+    font-family: 'Kalam', cursive;
+}
+
+@keyframes slide {
+    from {
+        margin-right: 100%;
+    }
+
+    to {
+        margin-right: 0%;
+    }
+}
+
+#reg:hover {
+    color: rgb(255, 94, 0);
+    background-color: transparent;
+    border: 2px solid rgb(255, 115, 0);
+}
+
+
+.contact{
+    display: flex;
+    position: relative;
+    justify-items: center;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: black;
+}
+
+.contact img{
+
+    margin-left: 30%;
+}
+.contact a{
+    font-size: larger;
+    padding-left: 15px;
+    padding-top: 7px;
+}
+
+.contact a:hover{
+    color: chocolate;
+}
+
+.contact p{
+    padding-top: 20px;
+    padding-left: 300px;
+    color: aquamarine;
+}
+
+
+.more{
+    position: relative;
+    border: 2px;
+    border: none;
+    outline: none;
+    background-color: black;
+    text-decoration: none;
+    color: rgb(255, 98, 0);
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 4px;
+    margin-left:48%;
+    border-radius: 15px;
+    font-size: medium;
+}
+
+.more:hover{
+    color: aquamarine;
+}
+
+.A{
+    background-color: black;
+}
+.a{
+    padding-left: 40px;
+    padding-top: 10px;
+}
+
+.a h4{
+    color: rgb(255, 89, 0);
+}
+.b h4{
+    color: rgb(255, 89, 0);
+}
+.c h4{
+    color: rgb(255, 89, 0);
+}
+
+.b{
+    padding-left: 140px;
+    padding-top: 10px;
+}
+
+.b ul li{
+    list-style: none;
+    padding-bottom: 4px;
+    margin-right: 200px;
+    font-size: small;
+}
+.c{
+    padding-left: 170px;
+    padding-top: 10px;
+}
+
+.ul li:hover{
+    color: rgb(0, 255, 255);
+    padding-left: 2px;
+    cursor: pointer;
+}
+
+
+.view{
+    border: 2px solid black;
+    padding-top: 3px;
+    padding-bottom: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: rgb(255, 120, 1);
+    background-color: rgb(5, 5, 5);
+    text-decoration: none;
+    border-radius: 30px;
+}

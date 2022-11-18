@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#log {
+    padding: 4px 9px;
+    color: rgb(251, 107, 4);
+    font-weight: bold;
+    border: 2px solid rgb(251, 107, 4);
+    border-radius: 30px;
+}
+
+#log:hover {
+    color: rgb(19, 176, 255);
+    background: none;
+    border: 2px solid rgb(19, 176, 255);
+}
+.nav-link {
+    font-weight: bold;
+    font-size: medium;
+    color: rgb(229, 127, 2);
+    font-family: 'Signika Negative', sans-serif;
+
+}
+    
+.nav-link:hover {
+    color: rgb(19, 176, 255);
+}
+
+.navbar {
+    top: 0;
+    background-color: rgb(0, 0, 0);
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#myBtn{
+    display: none;
+    position: fixed;
+    bottom: 90px;
+    right: 38px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color:rgb(253, 137, 4);;
+    color: black;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: larger;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 100%;
+
+    }
+.card{
+    border: 1px solid rgb(44, 43, 43);
+    padding-top: 15px;
+    margin-left: 90px;
+   
+}
+.card:hover{
+    outline: none;
+    border-color: #5e5e5e7f;
+    box-shadow: 0px 4px 10px #363636;
+    transform: scale(1.1);
+}
+.card a:hover{
+    background-color: rgba(251, 255, 0, 0.989);
+}
+.card h6 {
+    color: rgb(253, 104, 4);
+    font-weight: 800;
+}
+
+.c2{
+    padding-top: 60px;
+}
+.c2 img{
+    margin-bottom: 60px;
+}
+.C3{
+    padding-top: 90px;
+}
+.C3 img{
+    margin-bottom: 75PX;
+}
+
+.c4{
+    padding-top: 60px;
+}
+.c4 img{
+    margin-bottom: 57px;
+}
+
+.c5{
+    padding-top: 139px;
+}
+.c5 img{
+    margin-bottom: 105px;
+}
+.c5 a{
+    margin-top: 10px;
+}
+
+.c6{
+    padding-top: 80px;
+}
+.c6 img{
+    margin-bottom: 55px;
+}
+.c6 a{
+    margin-top: 13px;
+}
+.c7{
+    padding-top: 130px;
+}
+.c7 img{
+    margin-bottom: 80px;
+}
+
+.bottom{
+    margin-bottom: 60px;
+}
